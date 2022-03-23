@@ -2,7 +2,7 @@
 
 ### Terminal logs
 
-git change  test
+v1.0-alpha.0
 ### Scaffolding angular workspce for multy projects
 * Run `ng new ng-xrm --create-application=false`
 * Run `cd ng-xrm`
