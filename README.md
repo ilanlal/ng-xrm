@@ -1,6 +1,20 @@
 # NgXrm
 
-Run `npm i --save @types/xrm`
+### Terminal logs
+
++ `echo "# ng-wiki" >> README.md`
++ `git init`
++ `git add README.md`
++ `git commit -m "first commit"`
++ `git remote add origin https://github.com/ilanlal/ng-xrm.git` or `git push -u origin main`
++ `git branch -M main`
++ `git push -u origin main`
+
+
+* Run `ng new ng-xrm --create-application=false`
+* Run `cd .\ng-xrm\`
+
++ Run `npm i --save @types/xrm`
 
 
 ## Development server
