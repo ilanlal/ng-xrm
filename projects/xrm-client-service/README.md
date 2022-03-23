@@ -1,6 +1,6 @@
 # XrmClientService
 
-> ### operation: v1.0-alpha.2
+> ### > ## current v1.0-alpha.2
 
 Start working with [@types/xrm](https://www.youtube.com/watch?v=VsKsfNkzL50)
 
@@ -8,10 +8,10 @@ Start working with [@types/xrm](https://www.youtube.com/watch?v=VsKsfNkzL50)
 + Run `ng build xrm-client-service` create first dist
 
 
-+ try now... `npm link ng-wiki`
++ try now... `npm link ng-xrm`
 + After create example angular app.
 
-> ### operation: v1.0-alpha.1
+> ### v1.0-alpha.1
 
 + Run `ng g library xrm-client-service --prefix=easy` - create library to dist alter as npm
 + Run `npm i --save @types/xrm --project=xrm-client-service`

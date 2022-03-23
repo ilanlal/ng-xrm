@@ -1,6 +1,8 @@
 # NgXrm
 
-> ## current v1.0-alpha.1
+> ## current v1.0-alpha.2
+
+> ## v1.0-alpha.1
 
 + Run `ng g library xrm-client-service --prefix=easy` - create library to dist alter as npm
 + Run `npm i --save @types/xrm --project=xrm-client-service`
