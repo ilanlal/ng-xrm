@@ -1,19 +1,22 @@
 # NgXrm
 
-### Terminal logs
+> ## current v1.0-alpha.2
 
-git change  test
+> ## v1.0-alpha.1
+
++ Run `ng g library xrm-client-service --prefix=easy` - create library to dist alter as npm
++ Run `npm i --save @types/xrm --project=xrm-client-service`
+
+> ## v1.0-alpha.0
 ### Scaffolding angular workspce for multy projects
 * Run `ng new ng-xrm --create-application=false`
 * Run `cd ng-xrm`
 * Run `git init` will reinitialized new or existing Git repository (EMPTY) to add changeset `git add README.md`
-+ Run `npm i --save @types/xrm`
 
 * Run `git commit -m "first commit"`
 * Run `git remote add origin https://github.com/ilanlal/ng-xrm.git` or `git remote remove origin` to remove
 + Run `git branch -M main`
 + Run `git push -u origin main`
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

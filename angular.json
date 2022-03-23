@@ -3,5 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "xrm-client-service": {
+      "projectType": "library",
+      "root": "projects/xrm-client-service",
+      "sourceRoot": "projects/xrm-client-service/src",
+      "prefix": "easy",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/xrm-client-service/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/xrm-client-service/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/xrm-client-service/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/xrm-client-service/src/test.ts",
+            "tsConfig": "projects/xrm-client-service/tsconfig.spec.json",
+            "karmaConfig": "projects/xrm-client-service/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "xrm-client-service"
 }
