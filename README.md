@@ -2,6 +2,7 @@
 
 ### Terminal logs
 
+git change  test
 ### Scaffolding angular workspce for multy projects
 * Run `ng new ng-xrm --create-application=false`
 * Run `cd ng-xrm`
@@ -12,10 +13,6 @@
 * Run `git remote add origin https://github.com/ilanlal/ng-xrm.git` or `git remote remove origin` to remove
 + Run `git branch -M main`
 + Run `git push -u origin main`
-
-+ After creating new branch in github, Run `git branch -M dev-startup`
-* Run `git commit -m "first in dev commit"`
-+ Run `git push -u origin dev-startup`
 
 ## Development server
 
