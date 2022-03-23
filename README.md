@@ -2,20 +2,20 @@
 
 ### Terminal logs
 
-+ `echo "# ng-wiki" >> README.md`
-+ `git init`
-+ `git add README.md`
-+ `git commit -m "first commit"`
-+ `git remote add origin https://github.com/ilanlal/ng-xrm.git` or `git push -u origin main`
-+ `git branch -M main`
-+ `git push -u origin main`
-
-
+### Scaffolding angular workspce for multy projects
 * Run `ng new ng-xrm --create-application=false`
-* Run `cd .\ng-xrm\`
-
+* Run `cd ng-xrm`
+* Run `git init` will reinitialized new or existing Git repository (EMPTY) to add changeset `git add README.md`
 + Run `npm i --save @types/xrm`
 
+* Run `git commit -m "first commit"`
+* Run `git remote add origin https://github.com/ilanlal/ng-xrm.git` or `git remote remove origin` to remove
++ Run `git branch -M main`
++ Run `git push -u origin main`
+
++ After creating new branch in github, Run `git branch -M dev-startup`
+* Run `git commit -m "first in dev commit"`
++ Run `git push -u origin dev-startup`
 
 ## Development server
 
@@ -40,3 +40,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+#### I'm Ilan Laloum read more [about me](https://easyadm.com/about-me) 
